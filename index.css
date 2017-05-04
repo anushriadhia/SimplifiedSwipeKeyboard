@@ -1,0 +1,75 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+	margin-right: 5vw;
+	margin-top: 5vh;
+	z-index: 10;
+	float: right;
+}
+
+.wordbox {
+	float:left;
+	font-size: 45px;
+	padding: 1vw;
+	margin: 4vw;
+	width: 31vw;
+	height: 60vh;
+	border: solid;
+	border-radius: 10px;
+	margin-top: 20vh;
+
+
+}
+
+.row {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.key {
+
+	width: 20vh;
+	height: 20vh;
+	display: inline-block;
+	background-color: #ced4ae;
+	flex-grow: 1;
+	margin: 3px;
+
+}
+
+.hidden {
+
+	width: 75%;
+	height: 75%;
+	margin: 10%;
+	font-size: 300%;
+	text-align: center;
+}
+
+button {
+	position: absolute;
+	float: left;
+	background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 3vh 4vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    border-radius: 12px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-right: 11vw;
+    margin-left: 11vw;
+
+}
+
+button:hover {
+
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
