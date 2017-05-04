@@ -1,0 +1,2 @@
+# SimplifiedSwipeKeyboard
+Simplified Swipe Keyboard
